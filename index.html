@@ -13,36 +13,52 @@
     <title>Frontend Mentor | NFT preview card component</title>
   </head>
   <body>
-    <section class="background-shadow">
-      <section class="background-shadow2">
+    <div class="background-shadow">
+      <div class="background-shadow2">
         <main>
-          <figure>
-            <img src="./images/image-equilibrium.jpg" alt="Equilibrium" />
-          </figure>
+          <div
+            class="figure"
+            aria-label="Preview of the NFT artwork titled 'Equilibrium #3429'"
+          >
+            <img
+              src="./images/image-equilibrium.jpg"
+              alt="Digital artwork titled 'Equilibrium #3429'"
+            />
+          </div>
           <section class="content">
-            <p>Equilibrium #3429</p>
+            <h1>Equilibrium #3429</h1>
             <p>Our Equilibrium collection promotes balance and calm.</p>
-            <section class="eth-line">
-              <section class="left-eth">
-                <img src="./images/icon-ethereum.svg" alt="Ethereum" />0.041 ETH
-              </section>
-              <section class="right-days">
-                <img src="./images/icon-clock.svg" alt="Clock" />3 days left
-              </section>
-            </section>
-            <section class="profile-line">
-              <img src="./images/image-avatar.png" alt="Profile" />Creation of
-              <a href="#">Jules Wyvern</a>
-            </section>
+            <div class="eth-line">
+              <div class="left-eth" aria-label="Price of the NFT in Ethereum">
+                <img src="./images/icon-ethereum.svg" alt="" />0.041 ETH
+              </div>
+              <div
+                class="right-days"
+                aria-label="Time remaining to purchase the NFT"
+              >
+                <img src="./images/icon-clock.svg" alt="" />3 days left
+              </div>
+            </div>
+            <div class="profile-line">
+              <img
+                src="./images/image-avatar.png"
+                alt="Profile picture of Jules Wyvern"
+              />
+              Creation of
+              <a href="#" aria-label="View profile of Jules Wyvern"
+                >Jules Wyvern</a
+              >
+            </div>
           </section>
         </main>
-      </section>
-    </section>
-    <section class="attribution">
+      </div>
+    </div>
+    <footer>
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="https://github.com/AnggaWibawa/" target="_blank">AnggaWibawa</a>.
-    </section>
+      >. Coded by
+      <a href="https://github.com/AnggaWibawa/" target="_blank">AnggaWibawa</a>.
+    </footer>
   </body>
 </html>
